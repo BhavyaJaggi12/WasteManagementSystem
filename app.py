@@ -32,7 +32,7 @@ with app.app_context():
 
 @app.route("/")  #gives the home page
 def home():
-    return render_template('index.html')
+    return render_template('index2.html')
 
 
 
